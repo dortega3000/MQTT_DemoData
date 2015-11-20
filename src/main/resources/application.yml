@@ -10,9 +10,9 @@ scheduler:
 message:
   deviceId: ${random.int[123400,123405]}
   rpm: ${random.int[0,8000]}
-  directionTemp: ${random.int[0,7]}
+  directionTemp: ${random.int[0,8]}
   speed: ${random.int[0,120]}
   distance: ${random.int[0,1600]}
 device:
   id: ${random.int[123400,123405]}
-  typeTemp: ${random.int[0,1]}
+  typeTemp: ${random.int[0,2]}
